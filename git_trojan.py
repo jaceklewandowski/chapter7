@@ -16,7 +16,7 @@ trojan_config = "%s.json" % trojan_id
 data_path = "data/%s/" % trojan_id
 trojan_modules =[]
 task_queue = Queue.Queue()
-configured = FALSE
+configured = False
 
 class GitImporter(object):
 

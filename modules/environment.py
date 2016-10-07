@@ -2,4 +2,4 @@ import os
 
 def run(**args):
     print "[*]W module environment."
-    return str(os.environ.items())
+    return str(os.environ.get)
